@@ -2,6 +2,8 @@
 
 A frontend prototype for a spontaneous local meetup app — activity “tables” only go live once enough people commit to join.
 
+**Live site:** [https://divyagupta1998.github.io/Quorum/](https://divyagupta1998.github.io/Quorum/)
+
 ## Stack
 
 - Vite + React (hooks only)
@@ -18,6 +20,12 @@ npm run dev
 ```
 
 Open the URL Vite prints (usually `http://localhost:5173`).
+
+## Deploy (GitHub Pages)
+
+Pushes to `main` build and deploy via GitHub Actions.
+
+One-time setup: repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
 ## Flow
 
